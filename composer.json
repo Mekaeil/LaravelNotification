@@ -1,0 +1,13 @@
+{
+    "name": "mekaeil/laravel-notification",
+    "description": "Manage all of the notification like Email, SMS and Push notification for broadcasting with difference provider.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mekaeil",
+            "email": "maikel1370@gmail.com"
+        }
+    ],
+    "require": {}
+}
