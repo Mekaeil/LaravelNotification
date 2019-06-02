@@ -9,5 +9,20 @@
             "email": "maikel1370@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mekaeil\\LaravelNotification\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mekaeil\\LaravelNotification\\LaravelNotificationProvider"
+            ]
+        }
+    }
 }
